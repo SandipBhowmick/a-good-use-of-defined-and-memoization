@@ -8,10 +8,8 @@ class Person
 
  
   def full_name
-  	
-    return @full_name if defined?(@full_name) # first time "defined?(@full_name)"" is nil but afterthat first time it through values 
-    
-    @full_name = "#{first_name}#{last_name}"
+     return @full_name if defined?(@full_name)                               # first time "defined?(@full_name)"" is nil                                                                                     but afterthat first time it through values 
+     @full_name = "#{first_name}#{last_name}"
   end
 end
 
